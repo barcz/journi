@@ -23,7 +23,7 @@ object Main extends App with DataJson {
 
       (tvSpot.spotId, newUsers)
 
-    }.foreach(res => println(s"Spot ${res._1}: new user: ${res._2}"))
+    }.foreach(res => println(s"Spot ${res._1}: ${res._2} new users"))
 
 
 }
